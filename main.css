@@ -11,7 +11,7 @@ body {
 .myaudio {
     width: 375px;
     height: 667px;
-    margin: 100px auto 0;
+    margin: 0 auto;
     position: relative;
     overflow: hidden;
     color:#fff;
@@ -75,7 +75,8 @@ body {
 
 .coverimg img {
     width: 50%;
-    margin-top:25px;
+    position: relative;
+    top:25px;
     border:50px solid rgba(0,0,0,0.9);
     border-radius:150px;
 }
@@ -84,4 +85,21 @@ audio {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+#control{
+    position: absolute;
+    bottom:0;
+    height:75px;
+    width:100%;
+}
+#control p{
+    height:2px;
+    background: rgba(255,255,255,.3);
+}
+
+#control p span{
+    width:0;
+    display:block;
+    height:2px;
+    background: rgba(255,255,255,.8);
 }

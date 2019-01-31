@@ -12,15 +12,16 @@
     <div class="myaudio">
         <div class="head">
             <i class="fa fa-angle-left left" aria-hidden="true"></i>
-            <p class="name left">海阔天空 - Beyond</p>
+            <p class="name left">光年之外 - 邓紫棋</p>
             <i class="fa fa-share-square-o right" aria-hidden="true"></i>
         </div>
         <div class="coverimg">
-            <img src="cover.jpg" alt="">
+            <img id="start" src="cover.jpg" alt="">
         </div>
-        <audio
-        src="http://m10.music.126.net/20190130161911/cccb570e8f864e2c1ff64d438ce47950/ymusic/1606/426f/10a6/a01cace34f2df73c384bbcfe3e30b827.mp3"
-        controls></audio>
+        <audio id="myaudio" src="http://m10.music.126.net/20190131112417/746b65271e5aa015b0ecba720e6c93ce/ymusic/1606/426f/10a6/a01cace34f2df73c384bbcfe3e30b827.mp3"></audio>
+        <div id="control">
+            <p id="length"><span id="currentlength"></span></p>
+        </div>
     </div>
 </body>
     <script src="need.js"></script>
